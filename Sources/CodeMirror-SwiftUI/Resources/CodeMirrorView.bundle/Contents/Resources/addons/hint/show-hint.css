@@ -11,14 +11,15 @@
   -moz-box-shadow: 2px 3px 5px rgba(0,0,0,.2);
   box-shadow: 2px 3px 5px rgba(0,0,0,.2);
   border-radius: 3px;
-  border: 0.6px solid #735CD1;
+  border: 1px solid silver;
 
-  background: #282A36;
-  font-size: 70%;
+  background: white;
+  font-size: 90%;
   font-family: monospace;
 
   max-height: 20em;
   overflow-y: auto;
+  box-sizing: border-box;
 }
 
 .CodeMirror-hint {
@@ -26,11 +27,11 @@
   padding: 0 4px;
   border-radius: 2px;
   white-space: pre;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
 li.CodeMirror-hint-active {
-  background: #735CD1;
+  background: #08f;
   color: white;
 }
